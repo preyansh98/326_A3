@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 8, 2019 3:41:57 PM EST" modified="November 10, 2019 5:20:29 PM EST" specVersion="34" urnVersion="1.27" nextGlobalID="523">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 10, 2019 at 6:43:36 PM EST" modified="November 10, 2019 at 6:47:14 PM EST" specVersion="37" urnVersion="1.27" nextGlobalID="527">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
@@ -22,8 +22,8 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="Service" id="21" linksDest="416 417 419 420 421 422 424" linksSrc="409" type="Task" refs="22">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Dining" id="25" linksDest="121" linksSrc="66" type="Task" refs="26">
       <metadata name="_numEval" value="100"/>
@@ -43,8 +43,8 @@
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Kids Store" id="37" linksSrc="51" type="Task" refs="38">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Bookstore" id="41" linksSrc="52" type="Task" refs="42">
       <metadata name="_numEval" value="0"/>
@@ -60,8 +60,8 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="Resting Area" id="73" linksSrc="422" type="Task" refs="74">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Information Desk" id="77" linksDest="426" linksSrc="416" type="Task" refs="78">
       <metadata name="_addAggregate" value="disable"/>
@@ -92,7 +92,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20191110-172014250"/>
+      <metadata name="_autoSelected" value="20191110-184705866"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Takeout" id="114" linksSrc="124" type="Task" refs="115">
       <metadata name="_numEval" value="0"/>
@@ -106,20 +106,20 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20191110-172014250"/>
+      <metadata name="_autoSelected" value="20191110-184705866"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Card" id="135" linksSrc="169" type="Task" refs="440">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Cash" id="137" linksSrc="170" type="Task" refs="441">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Apply restaurant-specific coupon" id="139" linksSrc="166" type="Task" refs="442">
-      <metadata name="_addAggregate" value="disable"/>
+    <intElements xsi:type="fm:Feature" name="Cash" id="137" linksSrc="170" type="Task" refs="441">
       <metadata name="_numEval" value="0"/>
       <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Apply restaurant-specific coupon" id="139" linksSrc="166" type="Task" refs="442">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Voice Announcement" id="273" linksSrc="391" type="Task" refs="274">
       <metadata name="_addAggregate" value="disable"/>
@@ -132,12 +132,12 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Stairs" id="295" linksSrc="311" type="Task" refs="296">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Elevator" id="299" linksSrc="310" type="Task" refs="300">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Elevator" id="299" linksSrc="310" type="Task" refs="300">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Escalator" id="303" linksSrc="309" type="Task" refs="304">
       <metadata name="_numEval" value="0"/>
@@ -145,8 +145,8 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="Wheelchair lending" id="315" linksSrc="428" type="Task" refs="316">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Portable chargers" id="327" linksSrc="426" type="Task" refs="328">
       <metadata name="_addAggregate" value="disable"/>
@@ -160,9 +160,8 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="Payment kiosk" id="345" linksSrc="479" type="Task" refs="346">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20191110-172014250"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Locker" id="351" linksSrc="421" type="Task" refs="352">
       <metadata name="_addAggregate" value="disable"/>
@@ -170,8 +169,8 @@
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Motorized vehicle" id="362" linksSrc="476" type="Task" refs="363">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Bicycle" id="366" linksSrc="477" type="Task" refs="367">
       <metadata name="_numEval" value="0"/>
@@ -211,40 +210,40 @@
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Centre Underground" id="451" linksDest="474" linksSrc="465" type="Task" refs="452">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Tunnel from Place Montreal Trust" id="455" linksSrc="466" type="Task" refs="456">
       <metadata name="_numEval" value="0"/>
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Metro" id="461" linksSrc="463" type="Task" refs="462">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Parking" id="468" linksDest="476 477 479" linksSrc="474" type="Task" decompositionType="Xor" refs="469">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Store Payment" id="499" linksDest="515 516 521" linksSrc="519" type="Task" decompositionType="Xor" refs="500">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20191110-172014250"/>
+      <metadata name="_autoSelected" value="20191110-184705866"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Card(Store Payment)" id="503" linksSrc="515" type="Task" refs="504">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Cash (Store Payment)" id="507" linksSrc="516" type="Task" refs="508">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Apply store-specific coupon" id="511" linksSrc="521" type="Task" refs="512">
-      <metadata name="_addAggregate" value="disable"/>
+    <intElements xsi:type="fm:Feature" name="Cash (Store Payment)" id="507" linksSrc="516" type="Task" refs="508">
       <metadata name="_numEval" value="0"/>
       <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Apply store-specific coupon" id="511" linksSrc="521" type="Task" refs="512">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <links xsi:type="grl:Decomposition" name="Decomposition49" id="49" refs="//@urndef/@specDiagrams.2/@connections.0" dest="31" src="33"/>
     <links xsi:type="grl:Decomposition" name="Decomposition50" id="50" refs="//@urndef/@specDiagrams.2/@connections.1" dest="31" src="45"/>
@@ -299,7 +298,7 @@
     <links xsi:type="grl:Decomposition" name="Decomposition516" id="516" refs="//@urndef/@specDiagrams.2/@connections.50" dest="499" src="507"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory519" id="519" refs="//@urndef/@specDiagrams.2/@connections.51" dest="431" src="499" quantitativeContribution="100"/>
     <links xsi:type="fm:OptionalFMLink" name="Optional521" id="521" refs="//@urndef/@specDiagrams.2/@connections.52" dest="499" src="511" quantitativeContribution="100"/>
-    <groups name="StrategiesGroup5" id="5" strategies="6 496 523"/>
+    <groups name="StrategiesGroup5" id="5" strategies="6 496 523 525 527"/>
     <strategies name="Jack[studentAthleteShopper]_ElieElia" id="6" author="elie_" group="5">
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="31">
         <kpiEvalValueSet/>
@@ -378,6 +377,82 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="507">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Shane[studentDineAtMall]_AnasShahid" id="525" author="Sj Comoputer" group="5">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="13">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="445">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="19">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="25">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="27">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="110">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="127">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="116">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="139">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="135">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="503">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="511">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="461">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="287">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="295">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Tim[commuter]_ChristopherBoustros" id="527" author="cb" group="5">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="445">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="461">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="89">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="85">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="81">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="110">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="114">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="135">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="139">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
