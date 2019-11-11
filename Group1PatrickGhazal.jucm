@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 8, 2019 3:41:57 PM EST" modified="November 10, 2019 7:56:19 PM EST" specVersion="45" urnVersion="1.27" nextGlobalID="2108">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 8, 2019 3:41:57 PM EST" modified="November 10, 2019 8:58:38 PM EST" specVersion="46" urnVersion="1.27" nextGlobalID="2112">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="makePurchase" id="8">
@@ -28,287 +28,130 @@
     <intElements xsi:type="fm:Feature" name="Information Desk" id="77" linksDest="2106" linksSrc="476 2099" type="Task" refs="467 1958">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Washrooms" id="81" linksSrc="1473 2100" type="Task" refs="1470 1959">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Water Fountain" id="85" linksSrc="1474 2102" type="Task" refs="1466 1960">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Wifi" id="89" linksSrc="1475 2101" type="Task" refs="1462 1961">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Voice Announcement" id="273" linksSrc="477 2098" type="Task" refs="473 1970">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Wheelchair lending" id="315" linksSrc="493 2095" type="Task" refs="487 1979">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Stroller lending" id="333" linksSrc="492 2096" type="Task" refs="483 1982">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements name="Improve Customer Experience" id="453" linksDest="479 480 1457" type="Goal" refs="454">
-      <metadata name="_numEval" value="30"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </intElements>
+    <intElements name="Improve Customer Experience" id="453" linksDest="479 480 1457" type="Goal" refs="454"/>
     <intElements name="Provide Accessbility Options" id="457" linksDest="492 493" linksSrc="480" type="Goal" refs="458">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="25"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Keep Customers Informed" id="461" linksDest="476 477" linksSrc="479" type="Goal" refs="462">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="50"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Task466" id="466" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Task472" id="472" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Task482" id="482" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Task486" id="486" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements name="Task466" id="466" type="Task"/>
+    <intElements name="Task472" id="472" type="Task"/>
+    <intElements name="Task482" id="482" type="Task"/>
+    <intElements name="Task486" id="486" type="Task"/>
     <intElements name="Keep Services Up-and-Running" id="1453" linksDest="1473 1474 1475" linksSrc="1457" type="Goal" refs="1454">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="25"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Task1461" id="1461" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Task1465" id="1465" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Task1469" id="1469" type="Task">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Eaton Centre" id="1932" linksDest="2043 2044 2048 2086 2087 2097 2098" type="Task" refs="1933">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
+    <intElements name="Task1461" id="1461" type="Task"/>
+    <intElements name="Task1465" id="1465" type="Task"/>
+    <intElements name="Task1469" id="1469" type="Task"/>
+    <intElements xsi:type="fm:Feature" name="Eaton Centre" id="1932" linksDest="2043 2044 2048 2086 2087 2097 2098" type="Task" refs="1933"/>
     <intElements xsi:type="fm:Feature" name="Store" id="1934" linksDest="2046 2047" linksSrc="2044" type="Task" refs="1935">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Cafes and Restaurants" id="1936" linksDest="2067 2068" linksSrc="2048" type="Task" decompositionType="Or" refs="1937">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Service" id="1938" linksDest="2099 2100 2101 2102 2103 2104 2105" linksSrc="2097" type="Task" refs="1939">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Dining" id="1940" linksDest="2071" linksSrc="2067" type="Task" refs="1941">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Drinking" id="1942" linksDest="2070" linksSrc="2068" type="Task" refs="1943">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Dining" id="1940" linksDest="2071" linksSrc="2067" type="Task" refs="1941"/>
+    <intElements xsi:type="fm:Feature" name="Drinking" id="1942" linksDest="2070" linksSrc="2068" type="Task" refs="1943"/>
     <intElements xsi:type="fm:Feature" name="Visit" id="1944" linksDest="2050 2052 2053 2054 2055 2058" linksSrc="2046" type="Task" decompositionType="Xor" refs="1945">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Fashion" id="1946" linksDest="2057" linksSrc="2050" type="Task" refs="1947">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Kids Store" id="1948" linksSrc="2053" type="Task" refs="1949">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Bookstore" id="1950" linksSrc="2054" type="Task" refs="1951">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Jewelry" id="1952" linksSrc="2055" type="Task" refs="1953">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Sports and Fitness" id="1954" linksSrc="2052" type="Task" refs="1955">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Fashion" id="1946" linksDest="2057" linksSrc="2050" type="Task" refs="1947"/>
+    <intElements xsi:type="fm:Feature" name="Kids Store" id="1948" linksSrc="2053" type="Task" refs="1949"/>
+    <intElements xsi:type="fm:Feature" name="Bookstore" id="1950" linksSrc="2054" type="Task" refs="1951"/>
+    <intElements xsi:type="fm:Feature" name="Jewelry" id="1952" linksSrc="2055" type="Task" refs="1953"/>
+    <intElements xsi:type="fm:Feature" name="Sports and Fitness" id="1954" linksSrc="2052" type="Task" refs="1955"/>
     <intElements xsi:type="fm:Feature" name="Resting Area" id="1956" linksSrc="2103" type="Task" refs="1957">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Fitting Room" id="1962" linksSrc="2057" type="Task" refs="1963">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Order" id="1964" linksDest="2073 2074 2076" linksSrc="2070 2071" type="Task" decompositionType="Xor" refs="1965">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Takeout" id="1966" linksSrc="2074" type="Task" refs="1967">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Dine-in" id="1968" linksSrc="2073 2083" type="Task" refs="1969">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Takeout" id="1966" linksSrc="2074" type="Task" refs="1967"/>
+    <intElements xsi:type="fm:Feature" name="Dine-in" id="1968" linksSrc="2073 2083" type="Task" refs="1969"/>
     <intElements xsi:type="fm:Feature" name="Accessibility" id="1971" linksDest="2090 2091 2092 2095 2096" linksSrc="2087" type="Task" decompositionType="Or" refs="1972">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Stairs" id="1973" linksSrc="2090" type="Task" refs="1974">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Elevator" id="1975" linksSrc="2092" type="Task" refs="1976">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Escalator" id="1977" linksSrc="2091" type="Task" refs="1978">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Stairs" id="1973" linksSrc="2090" type="Task" refs="1974"/>
+    <intElements xsi:type="fm:Feature" name="Elevator" id="1975" linksSrc="2092" type="Task" refs="1976"/>
+    <intElements xsi:type="fm:Feature" name="Escalator" id="1977" linksSrc="2091" type="Task" refs="1978"/>
     <intElements xsi:type="fm:Feature" name="Portable chargers" id="1980" linksSrc="2106" type="Task" refs="1981">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Payment kiosk" id="1983" linksSrc="2040" type="Task" refs="1984">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Locker" id="1985" linksSrc="2104" type="Task" refs="1986">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Motorized vehicle" id="1987" linksSrc="2037" type="Task" refs="1988">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Bicycle" id="1989" linksSrc="2038" type="Task" refs="1990">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Motorized vehicle" id="1987" linksSrc="2037" type="Task" refs="1988"/>
+    <intElements xsi:type="fm:Feature" name="Bicycle" id="1989" linksSrc="2038" type="Task" refs="1990"/>
     <intElements xsi:type="fm:Feature" name="Window shopping" id="1991" linksSrc="2047" type="Task" refs="1992">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Centre map" id="1993" linksSrc="2105" type="Task" refs="1994">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Food Court" id="1995" linksDest="2083 2084" linksSrc="2086" type="Task" decompositionType="Xor" refs="1996">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Bring own food" id="1997" linksSrc="2084" type="Task" refs="1998">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Bring own food" id="1997" linksSrc="2084" type="Task" refs="1998"/>
     <intElements xsi:type="fm:Feature" name="Checkout" id="1999" linksDest="2060" linksSrc="2058" type="Task" refs="2000">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Card" id="2001" linksSrc="2078" type="Task" refs="2002">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Cash" id="2003" linksSrc="2079" type="Task" refs="2004">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Card" id="2001" linksSrc="2078" type="Task" refs="2002"/>
+    <intElements xsi:type="fm:Feature" name="Cash" id="2003" linksSrc="2079" type="Task" refs="2004"/>
     <intElements xsi:type="fm:Feature" name="Apply restaurant-specific coupon" id="2005" linksSrc="2081" type="Task" refs="2006">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Entering Centre" id="2007" linksDest="2030 2031 2032 2033" linksSrc="2043" type="Task" decompositionType="Xor" refs="2008">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Street entrance" id="2009" linksSrc="2030" type="Task" refs="2010">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Centre Underground" id="2011" linksDest="2035" linksSrc="2031" type="Task" refs="2012">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Tunnel from Place Montreal Trust" id="2013" linksSrc="2032" type="Task" refs="2014">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Metro" id="2015" linksSrc="2033" type="Task" refs="2016">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Street entrance" id="2009" linksSrc="2030" type="Task" refs="2010"/>
+    <intElements xsi:type="fm:Feature" name="Centre Underground" id="2011" linksDest="2035" linksSrc="2031" type="Task" refs="2012"/>
+    <intElements xsi:type="fm:Feature" name="Tunnel from Place Montreal Trust" id="2013" linksSrc="2032" type="Task" refs="2014"/>
+    <intElements xsi:type="fm:Feature" name="Metro" id="2015" linksSrc="2033" type="Task" refs="2016"/>
     <intElements xsi:type="fm:Feature" name="Parking" id="2017" linksDest="2037 2038 2040" linksSrc="2035" type="Task" decompositionType="Xor" refs="2018">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Payment" id="2019" linksDest="2078 2079 2081" linksSrc="2076" type="Task" decompositionType="Xor" refs="2020">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Store Payment" id="2021" linksDest="2062 2063 2065" linksSrc="2060" type="Task" decompositionType="Xor" refs="2022">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Card(Store Payment)" id="2023" linksSrc="2062" type="Task" refs="2024">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="Cash (Store Payment)" id="2025" linksSrc="2063" type="Task" refs="2026">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
+    <intElements xsi:type="fm:Feature" name="Card(Store Payment)" id="2023" linksSrc="2062" type="Task" refs="2024"/>
+    <intElements xsi:type="fm:Feature" name="Cash (Store Payment)" id="2025" linksSrc="2063" type="Task" refs="2026"/>
     <intElements xsi:type="fm:Feature" name="Apply store-specific coupon" id="2027" linksSrc="2065" type="Task" refs="2028">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
     </intElements>
+    <actors name="Eaton Employee" id="2109" contRefs="2110"/>
     <links xsi:type="grl:Contribution" name="Contribution476" id="476" refs="//@urndef/@specDiagrams.1/@connections.0" dest="461" src="77" contribution="SomePositive" quantitativeContribution="50"/>
     <links xsi:type="grl:Contribution" name="Contribution477" id="477" refs="//@urndef/@specDiagrams.1/@connections.1" dest="461" src="273"/>
     <links xsi:type="grl:Contribution" name="Contribution479" id="479" refs="//@urndef/@specDiagrams.1/@connections.2" dest="453" src="461"/>
@@ -726,50 +569,53 @@
       </connections>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="EatonEmployee Goal Model" id="2">
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef454" id="454" x="334" y="55" pred="//@urndef/@specDiagrams.1/@connections.2 //@urndef/@specDiagrams.1/@connections.3 //@urndef/@specDiagrams.1/@connections.6" def="453">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef454" id="454" x="435" y="179" pred="//@urndef/@specDiagrams.1/@connections.2 //@urndef/@specDiagrams.1/@connections.3 //@urndef/@specDiagrams.1/@connections.6" def="453">
         <metadata name="_height" value="67"/>
         <metadata name="_width" value="127"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef458" id="458" x="106" y="171" succ="//@urndef/@specDiagrams.1/@connections.3" pred="//@urndef/@specDiagrams.1/@connections.4 //@urndef/@specDiagrams.1/@connections.5" def="457">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef458" id="458" x="207" y="295" succ="//@urndef/@specDiagrams.1/@connections.3" pred="//@urndef/@specDiagrams.1/@connections.4 //@urndef/@specDiagrams.1/@connections.5" def="457">
         <metadata name="_height" value="64"/>
         <metadata name="_width" value="130"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef462" id="462" x="315" y="181" succ="//@urndef/@specDiagrams.1/@connections.2" pred="//@urndef/@specDiagrams.1/@connections.0 //@urndef/@specDiagrams.1/@connections.1" def="461">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef462" id="462" x="416" y="305" succ="//@urndef/@specDiagrams.1/@connections.2" pred="//@urndef/@specDiagrams.1/@connections.0 //@urndef/@specDiagrams.1/@connections.1" def="461">
         <metadata name="_height" value="53"/>
         <metadata name="_width" value="143"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef467" id="467" x="280" y="322" succ="//@urndef/@specDiagrams.1/@connections.0" def="77">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef467" id="467" x="381" y="446" succ="//@urndef/@specDiagrams.1/@connections.0" def="77">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef473" id="473" x="401" y="324" succ="//@urndef/@specDiagrams.1/@connections.1" def="273">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef473" id="473" x="502" y="448" succ="//@urndef/@specDiagrams.1/@connections.1" def="273">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef483" id="483" x="20" y="319" succ="//@urndef/@specDiagrams.1/@connections.4" def="333">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef483" id="483" x="121" y="443" succ="//@urndef/@specDiagrams.1/@connections.4" def="333">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef487" id="487" x="148" y="321" succ="//@urndef/@specDiagrams.1/@connections.5" def="315">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef487" id="487" x="249" y="445" succ="//@urndef/@specDiagrams.1/@connections.5" def="315">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1454" id="1454" x="556" y="176" succ="//@urndef/@specDiagrams.1/@connections.6" pred="//@urndef/@specDiagrams.1/@connections.7 //@urndef/@specDiagrams.1/@connections.8 //@urndef/@specDiagrams.1/@connections.9" def="1453">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1454" id="1454" x="657" y="300" succ="//@urndef/@specDiagrams.1/@connections.6" pred="//@urndef/@specDiagrams.1/@connections.7 //@urndef/@specDiagrams.1/@connections.8 //@urndef/@specDiagrams.1/@connections.9" def="1453">
         <metadata name="_height" value="57"/>
         <metadata name="_width" value="133"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1462" id="1462" x="527" y="324" succ="//@urndef/@specDiagrams.1/@connections.9" def="89">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1462" id="1462" x="628" y="448" succ="//@urndef/@specDiagrams.1/@connections.9" def="89">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1466" id="1466" x="646" y="324" succ="//@urndef/@specDiagrams.1/@connections.8" def="85">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1466" id="1466" x="747" y="448" succ="//@urndef/@specDiagrams.1/@connections.8" def="85">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1470" id="1470" x="734" y="261" succ="//@urndef/@specDiagrams.1/@connections.7" def="81">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1470" id="1470" x="835" y="385" succ="//@urndef/@specDiagrams.1/@connections.7" def="81">
         <metadata name="_height" value="46"/>
         <metadata name="_width" value="110"/>
       </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef2110" id="2110" x="52" y="124" width="936" height="516" contDef="2109">
+        <label/>
+      </contRefs>
       <connections xsi:type="grl:LinkRef" source="467" target="462" link="476">
         <label deltaX="25" deltaY="-37"/>
       </connections>
