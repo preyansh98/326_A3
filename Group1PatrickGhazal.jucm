@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 8, 2019 3:41:57 PM EST" modified="November 26, 2019 5:16:36 PM EST" specVersion="70" urnVersion="1.27" nextGlobalID="2307">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="elie_" created="November 8, 2019 3:41:57 PM EST" modified="November 26, 2019 9:15:20 PM EST" specVersion="71" urnVersion="1.27" nextGlobalID="2307">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="makePurchase" id="8">
@@ -27,9 +27,9 @@
   <grlspec>
     <intElements xsi:type="fm:Feature" name="Information Desk" id="77" linksDest="2106 2261" linksSrc="476 2099" type="Task" refs="467 1958">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Washrooms" id="81" linksSrc="1473 2100" type="Task" refs="1470 1959">
       <metadata name="_addAggregate" value="disable"/>
@@ -1183,6 +1183,7 @@
       <connections xsi:type="grl:LinkRef" source="2301" target="462" link="2304">
         <label deltaX="30" deltaY="-30"/>
       </connections>
+      <comments description="It is difficult to showcase the difference between the old and the new system in the goal model of an Eaton Employee, because nearly none of the new features relate to them. They're either related to the app, or to store employees specifically. As such, there is a difference of only one feature between the &quot;old&quot; and &quot;new&quot; strategies." x="1148" y="182" width="438" height="116" fillColor="255,255,200"/>
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="JamesBookworm UCM" id="3">
       <nodes xsi:type="ucm.map:StartPoint" name="Entered Eaton Centre" id="495" x="55" y="267" succ="//@urndef/@specDiagrams.2/@connections.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@startPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.1/@startPoints.0">
